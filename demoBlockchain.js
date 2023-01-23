@@ -29,7 +29,20 @@ const speedChain = new Blockchain()
 speedChain.addBlock('a')
 speedChain.addBlock('b')
 speedChain.addBlock('c')
+
 console.log(speedChain)
+
+/*
+Blockchain {
+  addBlock: [Function: addBlock],
+  chain: [
+    Block { data: 'genData', hash: 'genHash', lastHash: 'genLastHash' },
+    Block { data: 'a', hash: 'genHasha*', lastHash: 'genHash' },
+    Block { data: 'b', hash: 'genHasha*b*', lastHash: 'genHasha*' },
+    Block { data: 'c', hash: 'genHasha*b*c*', lastHash: 'genHasha*b*' }
+  ]
+}
+*/
 
 // to access member of JS class always* use 'this'.
 // to define constructor, instead of using class name use constructor keyword.
