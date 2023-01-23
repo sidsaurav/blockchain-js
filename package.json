@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsaurav/blockchain-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidsaurav/blockchain-js/issues"
+  },
+  "homepage": "https://github.com/sidsaurav/blockchain-js#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

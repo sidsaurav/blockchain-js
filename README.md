@@ -1,3 +1,6 @@
+## A simple blockchain code
+
+```
 //Utility function to generate unique hash
 
 genHash = (lastHash, data) => lastHash + data + '*'
@@ -47,3 +50,7 @@ Blockchain {
 // to access member of JS class always* use 'this'.
 // to define constructor, instead of using class name use constructor keyword.
 // We can define class members in constructor.
+
+//both function call will work and order doesn't matter here.
+
+```
