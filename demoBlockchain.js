@@ -19,13 +19,16 @@ class Blockchain {
     }
 
     addBlock = function (data) {
-        const lastHash = chain[chain.length - 1].hash
+        const lastHash = this.chain[this.chain.length - 1].hash
         const hash = genHash(lastHash, data)
         this.chain.push(new Block(data, hash, lastHash))
     }
 }
 
 const speedChain = new Blockchain()
+speedChain.addBlock('a')
+speedChain.addBlock('b')
+speedChain.addBlock('c')
 console.log(speedChain)
 
 // to access member of JS class always* use 'this'.
