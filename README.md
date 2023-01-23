@@ -51,6 +51,4 @@ Blockchain {
 // to define constructor, instead of using class name use constructor keyword.
 // We can define class members in constructor.
 
-//both function call will work and order doesn't matter here.
-
 ```
